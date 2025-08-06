@@ -14,10 +14,10 @@ const router = createBrowserRouter(
         },
       ],
     },
-  ]
-  // {
-  //   basename: "/PortFolio",
-  // }
+  ],
+  {
+    basename: "/PortFolio",
+  }
 );
 
 export default router;
