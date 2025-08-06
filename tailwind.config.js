@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        dots: "radial-gradient(# 1px, transparent 0.5px)",
+        dots: "radial-gradient(#FFF8E8 1px, transparent 0.5px)",
       },
       backgroundSize: {
         dots: "10px 10px",

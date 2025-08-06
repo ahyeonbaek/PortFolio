@@ -33,9 +33,14 @@ const Project = () => {
   return (
     <div ref={projectRef} className="bg-[#01013d]">
       <div className="border-b-4 border-t-2 border-black">
-        <h1 className="text-[30px] p-5 bg-[#ff6b00]">PROJECT</h1>
+        <h1 className="text-[30px] p-5 bg-[#ff6b00] font-bold"></h1>
       </div>
       <div className="grid p-5 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch pt-20 pb-20">
+        <div>
+          <h1 className="text-[50px] text-[#fff] p-5  font-bold border-l-[10px] border-[#ff6b00]">
+            PROJECT
+          </h1>
+        </div>
         {projects.map((project, index) => (
           <div
             key={index}

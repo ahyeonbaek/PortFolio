@@ -6,18 +6,23 @@ import velog from "@image/velog.jpg";
 const AboutPage = () => {
   const { aboutRef } = useRefContext();
   return (
-    <div ref={aboutRef} className="bg-[#01013d]">
-      <div className="border-b-4 border-t-2 border-black">
-        <h1 className="text-[30px] p-5 bg-[#ff6b00]">ABOUT</h1>
+    <div ref={aboutRef} className="bg-[#01013d] ">
+      <div>
+        <h1 className="text-[30px] p-5 bg-[#ff6b00] font-bold"></h1>
       </div>
-      <div className="p-5 bg-dots bg-[#01013d] w-full min-h-[900px] sm:flex items-center justify-center ">
+      <div className="border-b-4 border-t-2 border-black"></div>
+      <div className="p-5 bg-[#01013d] w-full min-h-[900px] flex gap-5 flex-col sm:flex items-center justify-center pt-[100px] pb-[100px]">
+        <div className="flex w-full">
+          <h1 className="text-[50px] text-[#fff] p-5 font-bold border-l-[10px] border-[#ff6b00] ">
+            ABOUT
+          </h1>
+        </div>
         <div className="flex flex-wrap lg: justify-center  items-center  rounded bg-white p-20 sm:gap-20">
-          <div className="w-[400px]">
-            <ul className="p-5  border rounded-[100] ">
-              <div className="flex justify-center rounded pb-5">
-                <img src={me} alt="프로필 사진" className="w-[200px] rounded" />
-              </div>
-
+          <div className="w-[400px] border">
+            <div className="flex justify-center rounded pb-5 pt-5 items-center">
+              <img src={me} alt="프로필 사진" className="w-[200px] rounded" />
+            </div>
+            <ul className="p-5   bg-[#f5f5f5]">
               <li className="flex items-center gap-3 pb-3">
                 <label className="min-w-[100px] whitespace-nowrap font-semibold">
                   거주지🏠 :
@@ -55,12 +60,17 @@ const AboutPage = () => {
               <br />
             </p>
             <div className="mt-[20px]">
-              <div className="flex flex-wrap flex-col gap-10">
+              <div className="flex flex-wrap flex-col gap-5">
                 <div>
-                  <h1 className="text-[30px] font-bold pb-3"> skill</h1>
-                  <div>
+                  <h1 className="text-[30px] font-bold  border-b-[5px] border-[#ff6b00]">
+                    {" "}
+                    skill
+                  </h1>
+                  <div className="pt-5 pb-5 ">
                     <div className="pb-3">
-                      <label className="border-b border-black">FE</label>
+                      <label className="border-b border-black bg-[#cdcdcd] pr-7">
+                        FE
+                      </label>
                       <ul className="flex flex-wrap gap-3 bg-[#f5f5f5] p-2">
                         <li className="">JavaScript</li>
                         <li>TypeScript</li>
@@ -75,7 +85,9 @@ const AboutPage = () => {
                       </ul>
                     </div>
                     <div>
-                      <label className="border-b border-black">BE</label>
+                      <label className="border-b border-black bg-[#cdcdcd] pr-7">
+                        BE
+                      </label>
                       <ul className="flex gap-3 bg-[#f5f5f5] p-2">
                         <li>Node.js</li>
                         <li>Express</li>
@@ -85,8 +97,11 @@ const AboutPage = () => {
                   </div>
                 </div>
                 <div>
-                  <h1 className="text-[30px] font-bold pb-3"> contact</h1>
-                  <div className="flex gap-5">
+                  <h1 className="text-[30px] font-bold border-b-[5px] border-[#ff6b00]">
+                    {" "}
+                    contact
+                  </h1>
+                  <div className="flex gap-5 pt-5">
                     <a href="https://github.com/ahyeonbaek" target="_blank">
                       <img
                         className="w-[40px] h-[40px]"

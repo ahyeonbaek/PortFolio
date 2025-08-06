@@ -128,6 +128,7 @@ export const projects = [
       "판매자는 상품을 등록하고, 관리할 수 있으며, 사용자는 결제 시스템을 통해 상품을 구매할 수 있습니다.",
     ],
     thumbnail: fansPickImg.fanspick,
+    github: "https://github.com/ahyeonbaek/fanspick-front",
     personnel: "team 4",
     period: "2025.01.3 ~ 2025.01.16",
     skill: [
@@ -238,6 +239,7 @@ export const projects = [
     description: [
       "반려동물과의 일상, 정보공유 등 다양한 주제로 소통할 수 있습니다.",
     ],
+    github: "https://github.com/ahyeonbaek/petple_front",
     thumbnail: petple,
     personnel: "team 3",
     period: "2025.02.11 ~ 2025.03.04",

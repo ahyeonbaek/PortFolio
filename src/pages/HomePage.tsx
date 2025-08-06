@@ -41,7 +41,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className="p-10">
-          <div className="h-[200px] border-l border-black "></div>
+          <div className="h-[250px] border-l border-black sm:h-[300px] md:h-[400px]"></div>
           <h1 className="text-[50px] font-['SpoqaHanSansNeo-Regular'] pt-5 pb-5">
             Front-End Developer
           </h1>
