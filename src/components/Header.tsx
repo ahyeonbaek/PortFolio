@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/image/logo.png";
+
 import DarkMode from "../consts/DarkMode";
 import { useRefContext } from "../context/useRef";
 
