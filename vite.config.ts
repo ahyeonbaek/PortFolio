@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/myportfolio/" : "/",
+  base: mode === "production" ? "/PortFolio/" : "/",
   plugins: [react()],
   resolve: {
     alias: [
