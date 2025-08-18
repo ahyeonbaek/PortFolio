@@ -11,7 +11,7 @@ const AboutPage = () => {
         <h1 className="text-[30px] p-5 bg-[#ff6b00] font-bold"></h1>
       </div>
       <div className="border-b-4 border-t-2 border-black"></div>
-      <div className="p-5 bg-[#01013d] w-full min-h-[900px] flex gap-5 flex-col sm:flex items-center justify-center pt-[100px] pb-[100px]">
+      <div className="p-5 bg-[#01013d] w-full min-h-[900px] flex gap-20 flex-col sm:flex items-center justify-center pt-[100px] pb-[100px]">
         <div className="flex w-full">
           <h1 className="text-[50px] text-[#fff] p-5 font-bold border-l-[10px] border-[#ff6b00] ">
             ABOUT
