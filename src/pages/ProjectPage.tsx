@@ -61,7 +61,11 @@ const Project = () => {
                     target="_blan"
                     className="relative group"
                   >
-                    <img src={github} className="h-[20px] md:h-[25px]" />
+                    <img
+                      src={github}
+                      className="h-[20px] md:h-[25px]"
+                      alt="깃허브 로고"
+                    />
                     <div className="hidden text-center absolute pt-1 pb-1 top-[20px] left-[-30px] rounded bg-[#f5f5f5] mt-2 w-[110px] text-sm group-hover:block ">
                       github 바로가기
                     </div>

@@ -106,14 +106,14 @@ const AboutPage = () => {
                       <img
                         className="w-[40px] h-[40px]"
                         src={git}
-                        alt="깃허브 이미지"
+                        alt="깃허브 로고"
                       />
                     </a>
                     <a href="https://velog.io/@ahyeon2/posts" target="_blank">
                       <img
                         className="w-[40px] h-[40px]"
                         src={velog}
-                        alt="벨로그 이미지"
+                        alt="벨로그 로고"
                       />
                     </a>
                   </div>
